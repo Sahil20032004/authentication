@@ -2,8 +2,8 @@
     "version":1,
     "rewrites":[
         {
-            "src":"/user(.*)",
-            "dest":"/"
+            "source":"/user(.*)",
+            "destination":"/"
         }
     ]
 }
