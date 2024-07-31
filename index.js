@@ -10,8 +10,8 @@ import usersRoute from "./routes/users.js";
 const app = express();
 
 // Middlewares
-app.use(express.json({ limit: "30mb", extended: true }));
-app.use(express.urlencoded({ limit: "30mb", extended: true }));
+app.use(express.json({ limit: "110mb", extended: true }));
+app.use(express.urlencoded({ limit: "110mb", extended: true }));
 app.use(cors());
 
 // Connect to the database
